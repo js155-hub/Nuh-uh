@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tương 3+1</title>
+  <style>
+    body {
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #ffe4e1;
+      color: #444;
+      margin: 0;
+      padding: 0;
+    }
+    audio {
+      display: block;
+      margin: 20px auto;
+      border: 2px solid #ff7f7f;
+      border-radius: 10px;
+      padding: 5px;
+      background-color: #fff;
+    }
+    #lyrics {
+      margin-top: 20px;
+      max-height: 100vh;
+      overflow-y: auto;
+      padding: 15px;
+      border-radius: 15px;
+      background: #fff;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      line-height: 1.8;
+      font-size: 18px;
+      color: #666;
+    }
+    #lyrics p {
+      margin: 5px 0;
+      padding: 10px 15px;
+      border-radius: 10px;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+      background-color: #ffe4e1;
+      color: #444;
+    }
+    #lyrics p.active {
+      background-color: #ff7f7f;
+      color: #fff;
+      font-weight: bold;
+      transform: scale(1.05);
+    }
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      color: #ff6b6b;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎵 tương 3+1 🎵</h1>
+  <audio id="audio" controls>
+    <source src="audio.mp3" type="audio/mp3">
+  </audio>
+    <div id="lyrics">
+    <p id="line1">Anh đang nơi đâu làm gì</p>
+    <p id="line2">Sương đêm rơi bên thềm nhà</p>
+    <p id="line3">Anh có nghĩ đến em không</p>
+    <p id="line4">Babi do you miss me ?</p>
+    <p id="line5">Rồi giữa đêm khó ngủ</p>
+    <p id="line6">Nhắn tin chẳng được</p>
+    <p id="line7">Lại thêm một lần tổn thương</p>
+    <p id="line8">Em đang nơi đây một mình</p>
+    <p id="line9">Cô đơn trong căn phòng này</p>
+    <p id="line10">Trôi qua bao đêm dại khờ</p>
+    <p id="line11">Suy tư cứ thế miệt mài</p>
+    <p id="line12">Ùh hú uh hú uh uh uh x2</p>
+    <p id="line13">Có thể bước đến trái tim của em một lần thôi~~</p>
+    <p id="line14">Mình yêu nhau đi anh</p>
+    <p id="line15">Mình Yêu nhau đi anh</p>
+    <p id="line16">Đêm dài miên man</p>
+    <p id="line17">Người theo em đi về</p>
+    <p id="line18">Theo em đi về</p>
+    <p id="line19">Chớ hoài lang thang</p>
+    <p id="line20">Bình yên ta trên đồi chỉ hai ta góc trời</p>
+    <p id="line21">Chỉ yêu nhau thôi mặc kệ đúng sai</p>
+    <p id="line22">Mình yêu nhau đi anh</p>
+    <p id="line23">Mình Yêu nhau đi anh</p>
+    <p id="line24">Để chẳng cô đơn</p>
+    <p id="line25">Người theo em đi về</p>
+    <p id="line26">Theo em đi về</p>
+    <p id="line27">Sao còn lan man</p>
+    <p id="line28">Hạt mưa cứ thế rơi</p>
+    <p id="line29">Chỉ riêng em mãi đợi</p>
+    <p id="line30">Chờ anh nơi đây người có biết không</p>
+    <p id="line31">Anh biết không</p>
+    <p id="line32">Em đang nằm mơ về một ngôi nhà</p>
+    <p id="line33">Trên con đường kia mình cùng la cà</p>
+    <p id="line34">Em đang nằm mơ nhưng chẳng thể ngờ</p>
+    <p id="line35">Mình giờ lại yêu anh hơn</p>
+    <p id="line36">Yêu ai? Yêu ai ? Để sai lầm</p>
+    <p id="line37">Yêu anh chấp hết dù ngày gió giông</p>
+    <p id="line38">Dù có bão tố mưa xa thì em cũng sẽ nhẹ nhàng bước qua</p>
+    <p id="line39">Có lẽ</p>
+    <p id="line40">Tim này x3</p>
+    <p id="line41">Đã đập loạn lên khi trông thấy anh</p>
+    <p id="line42">Và rồi</p>
+    <p id="line43">Có lẽ</p>
+    <p id="line44">Đêm nay x3</p>
+    <p id="line45">Lại là một đêm em thao thức nhớ anh</p>
+    <p id="line46">Giờ nhìn hạt mưa rơi</p>
+    <p id="line47">Nhưng lòng lại chơi vơi</p>
+    <p id="line48">Chờ một người em thương thầm</p>
+    <p id="line49">Hi vọng lại không sai lầm</p>
+    <p id="line50">...</p>
+    <p id="line51">Ềyyy</p>
+    <p id="line52">Alo Em đang ở đâu ?</p>
+    <p id="line53">Tại sao mình không thể gặp nhau ? x2</p>
+    <p id="line54">Tại sao lại khiến trái tim phải mong cầu ?</p>
+    <p id="line55">Vì hạnh phúc mà anh đang có</p>
+    <p id="line56">Ai đã cướp mất từ lâu</p>
+    <p id="line57">Em! Trả lời anh nghe</p>
+    <p id="line58">Cả đời anh sẽ</p>
+    <p id="line59">Vẽ câu chuyện mình đẹp nhất</p>
+    <p id="line60">Em có tin vào phép nhiệm màu</p>
+    <p id="line61">Chấp tay và nguyện cầu</p>
+    <p id="line62">Đưa tay mình vào kẽ tóc</p>
+    <p id="line63">Em nghe người ta nói mình là kẻ ngốc</p>
+    <p id="line64">Thay vì việc phải gọi em người cô đơn</p>
+    <p id="line65">Anh hiểu được tính tình em rất dễ khóc</p>
+    <p id="line66">Anh cũng muốn mình là kẻ vô ơn</p>
+    <p id="line67">Thay vào đó phải mạnh mẽ hơn</p>
+    <p id="line68">Vì không còn là trẻ con</p>
+    <p id="line69">Sẽ không còn thấy lẻ loi với hình bóng đó</p>
+    <p id="line70">Em chỉ muốn mình được tự do</p>
+        <p id="line71">Không còn phải tự ti</p>
+    <p id="line72">Khi em nhìn vào gương và bảo mình giống nó</p>
+    <p id="line73">...</p>
+  </div>
+
+  <script>
+    const audio = document.getElementById('audio');
+    const lyrics = document.querySelectorAll('#lyrics p');
+
+    const timings = [
+      { startTime: 0, endTime: 3 },
+      { startTime: 3, endTime: 5 },
+      { startTime: 5, endTime: 7 },
+      { startTime: 7, endTime: 9 },
+      { startTime: 9, endTime: 11 },
+      { startTime: 11, endTime: 14 },
+      { startTime: 14, endTime: 17 },
+      { startTime: 17, endTime: 20 },
+      { startTime: 20, endTime: 22 },
+      { startTime: 22, endTime: 24 },
+      { startTime: 24, endTime: 26 },
+      { startTime: 26, endTime: 35 },
+      { startTime: 35, endTime: 41 },
+      { startTime: 41, endTime: 44 },
+      { startTime: 44, endTime: 45 },
+      { startTime: 45, endTime: 47 },
+      { startTime: 47, endTime: 48 },
+      { startTime: 48, endTime: 49 },
+      { startTime: 49, endTime: 51 },
+      { startTime: 51, endTime: 55 },
+      { startTime: 55, endTime: 59 },
+      { startTime: 59, endTime: 61 },
+      { startTime: 61, endTime: 62 },
+      { startTime: 62, endTime: 64 },
+      { startTime: 64, endTime: 65 },
+      { startTime: 65, endTime: 66 },
+      { startTime: 66, endTime: 68 },
+      { startTime: 68, endTime: 70 },
+      { startTime: 70, endTime: 72 },
+      { startTime: 72, endTime: 76 },
+      { startTime: 76, endTime: 78 },
+      { startTime: 78, endTime: 81 },
+      { startTime: 81, endTime: 83 },
+      { startTime: 83, endTime: 86 },
+      { startTime: 86, endTime: 87 },
+      { startTime: 87, endTime: 90 },
+      { startTime: 90, endTime: 92 },
+      { startTime: 92, endTime: 95 },
+      { startTime: 95, endTime: 96 },
+      { startTime: 96, endTime: 97 },
+      { startTime: 97, endTime: 99 },
+      { startTime: 99, endTime: 100 },
+      { startTime: 100, endTime: 101 },
+      { startTime: 101, endTime: 102 },
+      { startTime: 102, endTime: 104 },
+      { startTime: 104, endTime: 106 },
+      { startTime: 106, endTime: 108 },
+      { startTime: 108, endTime: 110 },
+      { startTime: 110, endTime: 112 },
+      { startTime: 112, endTime: 115 },
+      { startTime: 115, endTime: 116 },
+      { startTime: 116, endTime: 117 },
+      { startTime: 117, endTime: 120 },
+      { startTime: 120, endTime: 122 },
+      { startTime: 122, endTime: 123 },
+      { startTime: 123, endTime: 124 },
+      { startTime: 124, endTime: 126 },
+      { startTime: 126, endTime: 127 },
+      { startTime: 127, endTime: 128 },
+      { startTime: 128, endTime: 130 },
+      { startTime: 130, endTime: 131 },
+      { startTime: 131, endTime: 133 },
+      { startTime: 133, endTime: 134 },
+      { startTime: 134, endTime: 136 },
+      { startTime: 136, endTime: 138 },
+      { startTime: 138, endTime: 140 },
+      { startTime: 140, endTime: 142 },
+      { startTime: 142, endTime: 143 },
+      { startTime: 143, endTime: 145 },
+      { startTime: 145, endTime: 146 },
+      { startTime: 146, endTime: 147 },
+      { startTime: 147, endTime: 149 },
+      { startTime: 149, endTime: 255 },
+    ];
+    
+    audio.ontimeupdate = function () {
+      const currentTime = audio.currentTime;
+
+      lyrics.forEach((line, index) => {
+        if (timings[index]) {
+          const { startTime, endTime } = timings[index];
+
+          if (currentTime >= startTime && currentTime < endTime) {
+            line.classList.add('active');
+            line.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          } else {
+            line.classList.remove('active');
+          }
+        }
+      });
+    };
+  </script>
+</body>
+  </html>
+  
